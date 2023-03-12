@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<style>
+    input[type=text], input[type=email],input[type=number]{
+            height: 40px;
+        }
+    textarea{
+        height: 80px;
+        width: 170px;
+    }
+</style>
+<body style="background-image: url('banner-logo.png'); background-repeat: no-repeat; background-size: contain; background-position-x: center;">
+    <div class="container" id="main">
+        <div class="col-lg-12">
+            <h1 style="text-align: center">Contact Us</h1>
+            <hr class="linestyle" style="margin-left: 60px;margin-right: 60px">
+            <form action="Homework2.html" method="post">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <label for="txtEmail">Email</label>
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="email" id="txtEmail" placeholder="Email" required/>
+                    </div>
+                    <div class="col-lg-12">
+                        <label for="txtFullName">Name</label>
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="text" id="txtFullName" placeholder="Full Name" required/>
+                    </div>
+                    <div class="col-lg-12">
+                        <label for="txtPhoneNumber">Phone Number</label>
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="number" id="txtPhoneNumber" placeholder="Phone Number" required/>
+                    </div>
+                    <div>
+                        <label for="txtMessage">Message</label>
+                    </div>
+                    <div>
+                        <textarea id="txtMessage" placeholder="Send Me a message..." required></textarea>
+                    </div>
+                    <div style="margin-left: 110px; margin-top: 10px;">
+                        <input class="btnstyle"  type="submit" name="submit" value="submit">
+                    </div>
+                </div>
+            </form>
+</body>
+</html>
